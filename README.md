@@ -37,6 +37,6 @@ jobs:
 
 make sure of the repository settings:
 
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/1.gif" alt="by yasserbdj96">
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/2.gif" alt="by yasserbdj96">
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.gif" alt="by yasserbdj96">
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/1.png" alt="by yasserbdj96">
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/2.png" alt="by yasserbdj96">
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.png" alt="by yasserbdj96">
