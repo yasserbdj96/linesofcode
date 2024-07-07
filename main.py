@@ -178,7 +178,21 @@ def format_table(data):
         save_file(f"badges/{d['Language']}",f"{d['Language']}_comment_lines.svg", comment_lines)
         save_file(f"badges/{d['Language']}",f"{d['Language']}_empty_lines.svg", empty_lines)
 
-        row = [d['Language'], d['Files'], d['Total Lines'], d['Code Lines'], d['Comment Lines'], d['Empty Lines']]
+        s1=f"badges/{d['Language']}"+f"{d['Language']}_files.svg"
+        s2=f"badges/{d['Language']}"+f"{d['Language']}_total_lines.svg"
+        s3=f"badges/{d['Language']}"+f"{d['Language']}_code_lines.svg"
+        s4=f"badges/{d['Language']}"+f"{d['Language']}_comment_lines.svg"
+        s5=f"badges/{d['Language']}"+f"{d['Language']}_empty_lines.svg"
+
+        s1=f'<img src="{s1}">'
+        s2=f'<img src="{s2}">'
+        s3=f'<img src="{s3}">'
+        s4=f'<img src="{s4}">'
+        s5=f'<img src="{s5}">'
+
+
+        #row = [d['Language'], d['Files'], d['Total Lines'], d['Code Lines'], d['Comment Lines'], d['Empty Lines']]
+        row = [d['Language'], s1, s2, s3, s4, s5]
         table.append(row)
     
 
@@ -194,9 +208,15 @@ def format_table(data):
     save_file(f"badges",f"total_comment_lines.svg", total_comment_lines)
     save_file(f"badges",f"total_empty_lines.svg", total_empty_lines)
 
+    x1=f"badges"+f"total_files.svg"
+    x2=f"badges"+f"total_lines.svg"
+    x3=f"badges"+f"total_code_lines.svg"
+    x4=f"badges"+f"total_comment_lines.svg"
+    x5=f"badges"+f"total_empty_lines.svg"
 
-    table.append(['TOTAL', sum(d['Files'] for d in data), sum(d['Total Lines'] for d in data),
-                  sum(d['Code Lines'] for d in data), sum(d['Comment Lines'] for d in data), sum(d['Empty Lines'] for d in data)])
+
+    #table.append(['TOTAL', sum(d['Files'] for d in data), sum(d['Total Lines'] for d in data),sum(d['Code Lines'] for d in data), sum(d['Comment Lines'] for d in data), sum(d['Empty Lines'] for d in data)])
+    table.append(['TOTAL', x1, x2,x3, x4, x5])
     return tabulate(table, headers, tablefmt='pipe')
 
 def save_file(directory, filename, content):
