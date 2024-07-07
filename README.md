@@ -46,12 +46,12 @@ jobs:
 ### Step 2: Configure Repository Settings:
 Ensure your repository is configured correctly to use GitHub Actions.
 
-Step 1:
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/1.png" alt="Repository Settings Step 1">
-Step 2:
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/2.png" alt="Repository Settings Step 2">
-Step 3:
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.png" alt="Repository Settings Step 3">
+Step 1:<br>
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/1.png" alt="Repository Settings Step 1"><br>
+Step 2:<br>
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/2.png" alt="Repository Settings Step 2"><br>
+Step 3:<br>
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.png" alt="Repository Settings Step 3"><br>
 
 ## Credits
 
