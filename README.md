@@ -22,18 +22,18 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-    - name: Install requirements
-      run: pip install -r requirements.txt
     - name: Create Workspace Folder
       run: mkdir -p wrdir
     - name: get Lines Of Code repo
       run: git clone https://github.com/yasserbdj96/linesofcode.git wrdir
+    - name: Install requirements
+      run: pip install -r wrdir/requirements.txt
     - name: Get this repository badges 
-      run: python wrdir/main.py --URL="https://github.com/${{ github.repository }}"
+      run: cd wrdir && python main.py --URL="https://github.com/${{ github.repository }}"
+    - name: Copy badges back to current repo     
+      run: mkdir -p badges && cp -R ./wrdir/badges/* ./badges/ && cp -R ./wrdir/badges.md ./badges.md
     - name: remove
       run: rm -rf wrdir
-    #- name: Copy badges back to current repo     
-    #  run: cp -R ./badges/. .
     - name: Commit and push changes
       run: |
         git config --global user.email "github-actions@github.com"
