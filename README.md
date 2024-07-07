@@ -54,6 +54,18 @@ Step 2:<br>
 Step 3:<br>
 <img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.png" alt="Repository Settings Step 3"><br>
 
+## Example:
+
+| Language   | Files                                          | Total Lines                                          | Code Lines                                          | Comment Lines                                          | Empty Lines                                          |
+|:-----------|:-----------------------------------------------|:-----------------------------------------------------|:----------------------------------------------------|:-------------------------------------------------------|:-----------------------------------------------------|
+| SVG        | <img src="badges/SVG/SVG_files.svg">           | <img src="badges/SVG/SVG_total_lines.svg">           | <img src="badges/SVG/SVG_code_lines.svg">           | <img src="badges/SVG/SVG_comment_lines.svg">           | <img src="badges/SVG/SVG_empty_lines.svg">           |
+| PYTHON     | <img src="badges/PYTHON/PYTHON_files.svg">     | <img src="badges/PYTHON/PYTHON_total_lines.svg">     | <img src="badges/PYTHON/PYTHON_code_lines.svg">     | <img src="badges/PYTHON/PYTHON_comment_lines.svg">     | <img src="badges/PYTHON/PYTHON_empty_lines.svg">     |
+| JSON       | <img src="badges/JSON/JSON_files.svg">         | <img src="badges/JSON/JSON_total_lines.svg">         | <img src="badges/JSON/JSON_code_lines.svg">         | <img src="badges/JSON/JSON_comment_lines.svg">         | <img src="badges/JSON/JSON_empty_lines.svg">         |
+| MARKDOWN   | <img src="badges/MARKDOWN/MARKDOWN_files.svg"> | <img src="badges/MARKDOWN/MARKDOWN_total_lines.svg"> | <img src="badges/MARKDOWN/MARKDOWN_code_lines.svg"> | <img src="badges/MARKDOWN/MARKDOWN_comment_lines.svg"> | <img src="badges/MARKDOWN/MARKDOWN_empty_lines.svg"> |
+| YAML       | <img src="badges/YAML/YAML_files.svg">         | <img src="badges/YAML/YAML_total_lines.svg">         | <img src="badges/YAML/YAML_code_lines.svg">         | <img src="badges/YAML/YAML_comment_lines.svg">         | <img src="badges/YAML/YAML_empty_lines.svg">         |
+| TEXT       | <img src="badges/TEXT/TEXT_files.svg">         | <img src="badges/TEXT/TEXT_total_lines.svg">         | <img src="badges/TEXT/TEXT_code_lines.svg">         | <img src="badges/TEXT/TEXT_comment_lines.svg">         | <img src="badges/TEXT/TEXT_empty_lines.svg">         |
+| TOTAL      | <img src="badges/total_files.svg">             | <img src="badges/total_lines.svg">                   | <img src="badges/total_code_lines.svg">             | <img src="badges/total_comment_lines.svg">             | <img src="badges/total_empty_lines.svg">             |
+
 ## Credits
 
 This workflow uses the [linesofcode](https://github.com/yasserbdj96/linesofcode) project by [yasserbdj96](https://github.com/yasserbdj96).
