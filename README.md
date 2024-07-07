@@ -1,7 +1,15 @@
-#
+# Lines Of Code Badge Workflow
 
-<h4>How to Use?</h4>
-copy this yml code to .github/workflows/
+This GitHub Action workflow helps you generate a badge displaying the lines of code in your repository.
+
+## How to Use
+
+Follow these steps to set up the Lines Of Code badge in your repository.
+
+### Step 1: Copy the Workflow YAML
+
+Copy the following YAML code into a new file located at `.github/workflows/lines-of-code.yml` in your repository:
+
 
 ```yml
 name: Lines Of Code
@@ -35,8 +43,18 @@ jobs:
         git push
 ```
 
-make sure of the repository settings:
+### Step 2: Configure Repository Settings:
+Ensure your repository is configured correctly to use GitHub Actions.
 
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/1.png" alt="by yasserbdj96">
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/2.png" alt="by yasserbdj96">
-<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.png" alt="by yasserbdj96">
+Step 1:
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/1.png" alt="Repository Settings Step 1">
+Step 2:
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/2.png" alt="Repository Settings Step 2">
+Step 3:
+<img src="https://raw.githubusercontent.com/yasserbdj96/linesofcode/main/screenshot/3.png" alt="Repository Settings Step 3">
+
+## Credits
+
+This workflow uses the [linesofcode](https://github.com/yasserbdj96/linesofcode) project by [yasserbdj96](https://github.com/yasserbdj96).
+
+For more information, refer to the original [linesofcode repository](https://github.com/yasserbdj96/linesofcode).
