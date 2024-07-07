@@ -196,11 +196,11 @@ def format_table(data):
         table.append(row)
     
 
-    total_files = generate_svg_code(f"Files in All GitHub Repos", format_number(sum(d['Files'] for d in data)), "#08C")
-    total_total_lines = generate_svg_code(f"Total Lines of Code (GitHub Repos)", format_number(sum(d['Total Lines'] for d in data)), "#08C")
-    total_code_lines = generate_svg_code(f"Code Lines (GitHub Repos)", format_number(sum(d['Code Lines'] for d in data)), "#08C")
-    total_comment_lines = generate_svg_code(f"Comment Lines (GitHub Repos)", format_number(sum(d['Comment Lines'] for d in data)), "#08C")
-    total_empty_lines = generate_svg_code(f"Empty Lines (GitHub Repos)", format_number(sum(d['Empty Lines'] for d in data)), "#08C")
+    total_files = generate_svg_code(f"Total Files", format_number(sum(d['Files'] for d in data)), "#08C")
+    total_total_lines = generate_svg_code(f"Total Lines of Code", format_number(sum(d['Total Lines'] for d in data)), "#08C")
+    total_code_lines = generate_svg_code(f"Total Code Lines", format_number(sum(d['Code Lines'] for d in data)), "#08C")
+    total_comment_lines = generate_svg_code(f"Total Comment Lines", format_number(sum(d['Comment Lines'] for d in data)), "#08C")
+    total_empty_lines = generate_svg_code(f"Total Empty Lines", format_number(sum(d['Empty Lines'] for d in data)), "#08C")
 
     save_file(f"badges",f"total_files.svg", total_files)
     save_file(f"badges",f"total_lines.svg", total_total_lines)
