@@ -332,5 +332,5 @@ if __name__ == '__main__':
         f.write(all_var)
         f.write("\n\nLast Update: "+date_time_string)
 
-    print(all_var)
+    #print(all_var)
 #}END.
