@@ -10,4 +10,4 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Print Repository URL
-      run: python main.py "https://github.com/${{ github.repository }}"
+      run: python main.py --URL="https://github.com/${{ github.repository }}"
