@@ -40,7 +40,8 @@ jobs:
         git config --global user.name "GitHub Actions"
         git add .
         git commit -m "Add badges folder."
-        git push
+        git pull --rebase origin main
+        git push origin main
 ```
 
 ### Step 2: Configure Repository Settings:
