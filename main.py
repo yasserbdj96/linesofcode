@@ -178,11 +178,11 @@ def format_table(data):
         save_file(f"badges/{d['Language']}",f"{d['Language']}_comment_lines.svg", comment_lines)
         save_file(f"badges/{d['Language']}",f"{d['Language']}_empty_lines.svg", empty_lines)
 
-        s1=f"badges/{d['Language']}"+f"{d['Language']}_files.svg"
-        s2=f"badges/{d['Language']}"+f"{d['Language']}_total_lines.svg"
-        s3=f"badges/{d['Language']}"+f"{d['Language']}_code_lines.svg"
-        s4=f"badges/{d['Language']}"+f"{d['Language']}_comment_lines.svg"
-        s5=f"badges/{d['Language']}"+f"{d['Language']}_empty_lines.svg"
+        s1=f"badges/{d['Language']}/"+f"{d['Language']}_files.svg"
+        s2=f"badges/{d['Language']}/"+f"{d['Language']}_total_lines.svg"
+        s3=f"badges/{d['Language']}/"+f"{d['Language']}_code_lines.svg"
+        s4=f"badges/{d['Language']}/"+f"{d['Language']}_comment_lines.svg"
+        s5=f"badges/{d['Language']}/"+f"{d['Language']}_empty_lines.svg"
 
         s1=f'<img src="{s1}">'
         s2=f'<img src="{s2}">'
@@ -208,11 +208,11 @@ def format_table(data):
     save_file(f"badges",f"total_comment_lines.svg", total_comment_lines)
     save_file(f"badges",f"total_empty_lines.svg", total_empty_lines)
 
-    x1=f"badges"+f"total_files.svg"
-    x2=f"badges"+f"total_lines.svg"
-    x3=f"badges"+f"total_code_lines.svg"
-    x4=f"badges"+f"total_comment_lines.svg"
-    x5=f"badges"+f"total_empty_lines.svg"
+    x1=f"badges/"+f"total_files.svg"
+    x2=f"badges/"+f"total_lines.svg"
+    x3=f"badges/"+f"total_code_lines.svg"
+    x4=f"badges/"+f"total_comment_lines.svg"
+    x5=f"badges/"+f"total_empty_lines.svg"
 
 
     #table.append(['TOTAL', sum(d['Files'] for d in data), sum(d['Total Lines'] for d in data),sum(d['Code Lines'] for d in data), sum(d['Comment Lines'] for d in data), sum(d['Empty Lines'] for d in data)])
