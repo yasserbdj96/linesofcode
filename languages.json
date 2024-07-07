@@ -268,6 +268,116 @@
       "name": "INI",
       "extensions": [".ini"],
       "comment_regex": ";.*$"
-    }
-  }
+    },
+    "apex": {
+      "name": "Apex",
+      "extensions": [".cls"],
+      "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "elm": {
+      "name": "Elm",
+      "extensions": [".elm"],
+      "comment_regex": "\\-\\-.*$|\\/\\*.*?\\*\\/"
+    },
+    "fsharp": {
+      "name": "F#",
+      "extensions": [".fs", ".fsi", ".fsx"],
+      "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "haxe": {
+      "name": "Haxe",
+      "extensions": [".hx"],
+      "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "julia": {
+      "name": "Julia",
+      "extensions": [".jl"],
+      "comment_regex": "#.*$|\\/\\*.*?\\*\\/"
+    },
+    "reasonml": {
+      "name": "ReasonML",
+      "extensions": [".re", ".rei"],
+      "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "sml": {
+      "name": "Standard ML",
+      "extensions": [".sml", ".sig"],
+      "comment_regex": "\\(\\*.*?\\*\\)"
+    },
+    "vhdl": {
+      "name": "VHDL",
+      "extensions": [".vhdl", ".vhd"],
+      "comment_regex": "--.*$"
+    },
+    "zig": {
+      "name": "Zig",
+      "extensions": [".zig"],
+      "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "ada": {
+        "name": "Ada",
+        "extensions": [".adb", ".ads"],
+        "comment_regex": "--.*$"
+    },
+    "d": {
+        "name": "D",
+        "extensions": [".d"],
+        "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "factor": {
+        "name": "Factor",
+        "extensions": [".factor"],
+        "comment_regex": "\\!.*$"
+    },
+    "fasm": {
+        "name": "FASM",
+        "extensions": [".asm"],
+        "comment_regex": ";.*$"
+    },
+    "forth": {
+        "name": "Forth",
+        "extensions": [".fs", ".4th", ".fth", ".frt"],
+        "comment_regex": "\\(.*?\\)"
+    },
+    "idris": {
+        "name": "Idris",
+        "extensions": [".idr"],
+        "comment_regex": "--.*$"
+    },
+    "lean": {
+        "name": "Lean",
+        "extensions": [".lean", ".hlean"],
+        "comment_regex": "--.*$|\\/\\*.*?\\*\\/"
+    },
+    "mercury": {
+        "name": "Mercury",
+        "extensions": [".m", ".moo"],
+        "comment_regex": "%.*$"
+    },
+    "tcl": {
+        "name": "Tcl",
+        "extensions": [".tcl", ".tk"],
+        "comment_regex": "#.*$"
+    },
+    "v": {
+        "name": "V",
+        "extensions": [".v"],
+        "comment_regex": "\\/\\/.*$|\\/\\*.*?\\*\\/"
+    },
+    "wolfram": {
+        "name": "Wolfram",
+        "extensions": [".nb", ".wl"],
+        "comment_regex": "\\(\\*.*?\\*\\)"
+    },
+    "hta": {
+      "name": "Hta",
+      "extensions": [".hta"],
+      "comment_regex": "<!--.*?-->|\\/\\/.*$|\\/\\*.*?\\*\\/"
+  },
+  "vbs": {
+    "name": "VBScript",
+    "extensions": [".vbs"],
+    "comment_regex": "'.*$"
+}
+}
     
