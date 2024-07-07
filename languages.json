@@ -373,11 +373,11 @@
       "name": "Hta",
       "extensions": [".hta"],
       "comment_regex": "<!--.*?-->|\\/\\/.*$|\\/\\*.*?\\*\\/"
-  },
-  "vbs": {
-    "name": "VBScript",
-    "extensions": [".vbs"],
-    "comment_regex": "'.*$"
-}
+    },
+    "vbs": {
+      "name": "VBScript",
+      "extensions": [".vbs"],
+      "comment_regex": "'.*$"
+    }
 }
     
