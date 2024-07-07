@@ -15,7 +15,7 @@ jobs:
     - name: get Lines Of Code repo
       run: git clone https://github.com/yasserbdj96/linesofcode.git wrdir
     - name: Get this repository Badges 
-      run: wrdir/python main.py --URL="https://github.com/${{ github.repository }}"
+      run: python wrdir/main.py --URL="https://github.com/${{ github.repository }}"
     - name: Copy badges back to current repo
       run: cp -R wrdir/badges .
     - name: Commit and push changes
