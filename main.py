@@ -214,6 +214,12 @@ def format_table(data):
     x4=f"badges/"+f"total_comment_lines.svg"
     x5=f"badges/"+f"total_empty_lines.svg"
 
+    x1=f'<img src="{x1}">'
+    x2=f'<img src="{x2}">'
+    x3=f'<img src="{x3}">'
+    x4=f'<img src="{x4}">'
+    x5=f'<img src="{x5}">'
+
 
     #table.append(['TOTAL', sum(d['Files'] for d in data), sum(d['Total Lines'] for d in data),sum(d['Code Lines'] for d in data), sum(d['Comment Lines'] for d in data), sum(d['Empty Lines'] for d in data)])
     table.append(['TOTAL', x1, x2,x3, x4, x5])
