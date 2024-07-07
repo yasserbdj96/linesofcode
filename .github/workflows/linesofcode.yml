@@ -23,5 +23,5 @@ jobs:
         git config --global user.email "github-actions@github.com"
         git config --global user.name "GitHub Actions"
         git add .
-        git commit -m "Add badges folder"
+        git commit -m "Add badges folder."
         git push
