@@ -17,7 +17,7 @@
 import argparse
 import os
 import sys
-
+import subprocess
 
 # Create an ArgumentParser object
 parser = argparse.ArgumentParser()
@@ -29,5 +29,30 @@ parser.add_argument('--URL', '--url', dest='URL', type=str, default=os.getenv('U
 args = parser.parse_args()
 
 URL = args.URL
+
+#
+def clone_repo(repo_url, folder_name='temp'):
+    try:
+        # Ensure the folder name is a directory
+        if not os.path.isdir(folder_name):
+            os.makedirs(folder_name)
+        # Run the git clone command
+        subprocess.run(['git', 'clone', repo_url, folder_name], check=True)
+        print(f"Repository cloned into {folder_name}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error occurred while cloning the repository: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+
+if __name__ == "__main__":
+    repo_url = URL
+    clone_repo(repo_url)
+
+
+
+
+
+
+
 
 print(URL)
