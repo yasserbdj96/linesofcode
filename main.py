@@ -19,6 +19,7 @@ from tabulate import tabulate
 #from PIL import ImageFont, ImageDraw
 import argparse
 import subprocess
+import time
 
 # Create an ArgumentParser object
 parser = argparse.ArgumentParser()
@@ -293,7 +294,7 @@ def force_delete_folder(folder_path):
 
 if __name__ == '__main__':
     all_var=format_table(main())
-    """with open('README.md', 'w') as f:
+    with open('badges.md', 'w') as f:
         # Get current date and time in seconds since the epoch
         seconds_since_epoch = time.time()
 
@@ -303,7 +304,7 @@ if __name__ == '__main__':
         #   Print the value
         print(date_time_string)
         f.write(all_var)
-        f.write("\n\nLast Update: "+date_time_string)"""
+        f.write("\n\nLast Update: "+date_time_string)
 
     print(all_var)
 #}END.
