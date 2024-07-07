@@ -1,11 +1,11 @@
-| Language   |   Files |   Total Lines |   Code Lines |   Comment Lines |   Empty Lines |
-|:-----------|--------:|--------------:|-------------:|----------------:|--------------:|
-| SVG        |      35 |           665 |          665 |               0 |             0 |
-| PYTHON     |       1 |           310 |          230 |              36 |            44 |
-| JSON       |       1 |           273 |          272 |               0 |             1 |
-| MARKDOWN   |       2 |            97 |           79 |               0 |            18 |
-| YAML       |       1 |            29 |           27 |               0 |             2 |
-| TEXT       |       1 |             1 |            1 |               0 |             0 |
-| TOTAL      |      41 |          1375 |         1274 |              36 |            65 |
+| Language   | Files                                         | Total Lines                                         | Code Lines                                         | Comment Lines                                         | Empty Lines                                         |
+|:-----------|:----------------------------------------------|:----------------------------------------------------|:---------------------------------------------------|:------------------------------------------------------|:----------------------------------------------------|
+| SVG        | <img src="badges/SVGSVG_files.svg">           | <img src="badges/SVGSVG_total_lines.svg">           | <img src="badges/SVGSVG_code_lines.svg">           | <img src="badges/SVGSVG_comment_lines.svg">           | <img src="badges/SVGSVG_empty_lines.svg">           |
+| PYTHON     | <img src="badges/PYTHONPYTHON_files.svg">     | <img src="badges/PYTHONPYTHON_total_lines.svg">     | <img src="badges/PYTHONPYTHON_code_lines.svg">     | <img src="badges/PYTHONPYTHON_comment_lines.svg">     | <img src="badges/PYTHONPYTHON_empty_lines.svg">     |
+| JSON       | <img src="badges/JSONJSON_files.svg">         | <img src="badges/JSONJSON_total_lines.svg">         | <img src="badges/JSONJSON_code_lines.svg">         | <img src="badges/JSONJSON_comment_lines.svg">         | <img src="badges/JSONJSON_empty_lines.svg">         |
+| MARKDOWN   | <img src="badges/MARKDOWNMARKDOWN_files.svg"> | <img src="badges/MARKDOWNMARKDOWN_total_lines.svg"> | <img src="badges/MARKDOWNMARKDOWN_code_lines.svg"> | <img src="badges/MARKDOWNMARKDOWN_comment_lines.svg"> | <img src="badges/MARKDOWNMARKDOWN_empty_lines.svg"> |
+| YAML       | <img src="badges/YAMLYAML_files.svg">         | <img src="badges/YAMLYAML_total_lines.svg">         | <img src="badges/YAMLYAML_code_lines.svg">         | <img src="badges/YAMLYAML_comment_lines.svg">         | <img src="badges/YAMLYAML_empty_lines.svg">         |
+| TEXT       | <img src="badges/TEXTTEXT_files.svg">         | <img src="badges/TEXTTEXT_total_lines.svg">         | <img src="badges/TEXTTEXT_code_lines.svg">         | <img src="badges/TEXTTEXT_comment_lines.svg">         | <img src="badges/TEXTTEXT_empty_lines.svg">         |
+| TOTAL      | badgestotal_files.svg                         | badgestotal_lines.svg                               | badgestotal_code_lines.svg                         | badgestotal_comment_lines.svg                         | badgestotal_empty_lines.svg                         |
 
-Last Update: 2024-07-07 15:44:33
+Last Update: 2024-07-07 15:57:06
