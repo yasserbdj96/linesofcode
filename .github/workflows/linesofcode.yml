@@ -1,4 +1,4 @@
-name: Print Repository URL
+name: Lines Of Code
 
 on: [push]
 
@@ -8,6 +8,20 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
-    - name: Print Repository URL
-      run: python main.py --URL="https://github.com/${{ github.repository }}"
+    - name: Install requirements
+      run: pip install -r requirements.txt
+    - name: Create Workspace Folder
+      run: mkdir -p wrdir
+    - name: get Lines Of Code repo
+      run: git clone https://github.com/yasserbdj96/linesofcode.git wrdir
+    - name: Get this repository Badges 
+      run: wrdir/python main.py --URL="https://github.com/${{ github.repository }}"
+    - name: Copy badges back to current repo
+      run: cp -R wrdir/badges .
+    - name: Commit and push changes
+      run: |
+        git config --global user.email "github-actions@github.com"
+        git config --global user.name "GitHub Actions"
+        git add .
+        git commit -m "Add badges from Lines Of Code"
+        git push
